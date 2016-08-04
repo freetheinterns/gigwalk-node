@@ -11,3 +11,14 @@ export default class Tickets extends ResourceBase {
         return this.dispatch(request);
     }
 }
+
+// alternate way to do it
+// export default class Tickets {
+//     constructor(client: Axios) {
+//         this.client = client;
+//     }
+//     client: Axios;
+//     getCustomerTickets(): Promise<AxiosXHR<Object>> {
+//         return this.client.get('/v1/tickets/my_list');
+//     }
+// }

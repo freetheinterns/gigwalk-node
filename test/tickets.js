@@ -14,14 +14,14 @@ describe('Tickets', () => {
     it('should pass a smoke test', () => {
         expect(tickets).to.be.defined;
     });
-    it.skip('should be able to get all tickets for the current user', (done) => {
+    /* it.skip('should be able to get all tickets for the current user', (done) => {
         tickets.getCustomerTickets();
-          console.log(res.data)
-            .then((resp) => {
-                expect(resp.status).to.equal(200);
+          .then((resp) => {
+              console.log(resp.data);
+              expect(resp.status).to.equal(200);
               //  expect(resp.data).to.have.jsonSchema(schema);
-                done();
+              done();
             })
             .catch(done);
-    });
+    });*/
 });
